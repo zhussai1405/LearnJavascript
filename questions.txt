@@ -4,9 +4,7 @@ Explain and or look up the following questions and write down an answer in your 
 
 -- I want you to look up the following words and their definitions. 
    - Curious
-   - Professional
-   - ownership
-   -    
+
 
 1. In your own words explain what a variable is. Why is a variable referred to as a container of data? What are the different data types a variable can hold?
 2. In your own words explain the differenc between let and var and what effects it has on a block of code.
