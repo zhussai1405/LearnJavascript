@@ -1,0 +1,27 @@
+Explain and or look up the following questions and write down an answer in your own words. DO NOT COPY AND PASTE FROM A GOOGLE SEARCH.
+-- Always look up the meaning of any words that you don't understand.  If you don't know the meaning of a word that 
+   your knowledge will lack. Write the word down along with it's definition and review it.
+
+-- I want you to look up the following words and their definitions. 
+   - Curious
+   - Professional
+   - ownership
+   -    
+
+1. In your own words explain what a variable is. Why is a variable referred to as a container of data? What are the different data types a variable can hold?
+2. In your own words explain the differenc between let and var and what effects it has on a block of code.
+3. Explain the difference between a single equal sign '=' and a double equal sign '==' and triple equal sign '===' when used with javascript variables.
+4. Explain variable naming conventions and what best practices are for naming variables in javascript.
+5. Explain what are 'reserved words' in javascript along with some examples.
+6. Explain if else logic to me. What happens if we don't use brackets in the if clause? 
+7. Can you declare variables with the same name in different functions within the same script? Verify with a practical example in a javascript file.
+8. Look up the term "variable scope" in the context of javascript. Why is scope important. Show me a practical example of scope.
+9. Explain the difference between local and global variables. Can you declare variables with the same name at the global level? Verify with a practical example in a javascript file.
+10. Explain what happens to a variable when it's assigned different values and different value types. Do the following practical example: create a variable. Assign it a string value. Output the string value in a console log statement. Reassign the same variable with a number value and output that value. Explain what is happening in the reassignment of the variable as a container of data?
+11. Create a const variable and assign a value to it. Then try to reassign a value to the const variable. Explain what the problem is with doing this and what the output in the terminal will be when you run a practical example.
+12. What is the best practice for naming variable constants? Explain in your own words.
+13. Define the following in your own words - what is a function in terms of programming? 
+14. What is best practice for naming a function?
+15. What is the comparison type of the following expression or the value of isGreater --  let isGreater = 4 > 1; Explain what javascript is doing with the numbers.
+16. Learn to use the typeof operator. Explain what the operator tells you about a variable. Give specific examples on each javascript type.
+17. Look up examples of variable naming conventions. Give me a good explanation of best practices used for naming variables.
