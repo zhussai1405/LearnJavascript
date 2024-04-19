@@ -44,4 +44,13 @@ maxNumber(23,true);
 maxNumber("test string", "test string2");
 maxNumber(10,10);
 maxNumber(10, null)
+//Reference question no:2
+//with var vaiable
+var firstName = 'faraz';
+var lastName = 'hassan';
+console.log(firstName);
+console.log(lastName);
 
+//with let variable
+let firstName = 'faraz hassan';
+console.log(firstName);
