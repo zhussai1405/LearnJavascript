@@ -7,19 +7,87 @@ Explain and or look up the following questions and write down an answer in your 
 
 
 1. In your own words explain what a variable is. Why is a variable referred to as a container of data? What are the different data types a variable can hold?
-2. In your own words explain the differenc between let and var and what effects it has on a block of code.
+A. Variables is a name storage location, its a container of data , variables can hold different data types , strings , numbers , boolean , null , undefined
+   - Good
+
+2. In your own words explain the difference between let and var and what effects it has on a block of code.
+A. Main difference between Var and let is block scope of variable they declared.Var function is declared anywhere inside or outside the block but let are the block scope let declared inside the block
+   - Faraz, please create a javascript file and show me a working example.
+
 3. Explain the difference between a single equal sign '=' and a double equal sign '==' and triple equal sign '===' when used with javascript variables.
+A. In Javascript = is an assingment operator ,and == double equal sign means value of the variable is equal or "true" and === equal sign means variable are not a same type and its used for comparison 
+   - the triple equal sign is stricter form of the double equal sign. 
+   - ask perplexity to explain the difference with a code example and create a code example in a javascript file as an example.
+
 4. Explain variable naming conventions and what best practices are for naming variables in javascript.
+A. Variable naming convention mean , meaningfull names that can easily to understatnd according to the refference , also mean variable is casesensitive mean when we define veriable name it can be use camelCase or it can be meaningfull.
+   - Good
+
 5. Explain what are 'reserved words' in javascript along with some examples.
+A. Reservewords meam special meaning like for example in loops we use, for Loops, while loops , do while loops  or create functions we use if or else these are the special reserved words  
+   - partially correct - reserved words also include let const. Reserved words are words defined by the javascript language that have a predefined meaning and as a programmer we cannot use other than the purpose that there for.
+
 6. Explain if else logic to me. What happens if we don't use brackets in the if clause? 
+A. If or else is special reserved words , it describe the function for these reserved words like if(condition is || condition is)
+   or else} fuction is given another way
+   - partially correct. Please write some code using if else code. Explain what type of value goes in a if condition.
+
 7. Can you declare variables with the same name in different functions within the same script? Verify with a practical example in a javascript file.
+A. variable can declared let x=10;
+                        console.log(x); example vaiable x is declared 
+   - we need to discuss
+
 8. Look up the term "variable scope" in the context of javascript. Why is scope important. Show me a practical example of scope.
+A. Variable is the function which access in to a block or outside a block . Two types of variables , Global variable and local variable.
+   - we need to discuss scope
+
 9. Explain the difference between local and global variables. Can you declare variables with the same name at the global level? Verify with a practical example in a javascript file.
+A. Variable which declared outside the function or can access inside or outside the code, is called Global variable,
+   Variable which declared inside the function or can access inside the block function is called local variable 
+   Example of Global variable: let maxNumber = "2,6";
+   Example of local variable: Function max(2,6){
+                              let maxNumber = "2,6";
+   - partially correct. we need to discuss
+
 10. Explain what happens to a variable when it's assigned different values and different value types. Do the following practical example: create a variable. Assign it a string value. Output the string value in a console log statement. Reassign the same variable with a number value and output that value. Explain what is happening in the reassignment of the variable as a container of data?
+A.  Ask about this question 
+
 11. Create a const variable and assign a value to it. Then try to reassign a value to the const variable. Explain what the problem is with doing this and what the output in the terminal will be when you run a practical example.
+A. Not understand ask with you 
+
 12. What is the best practice for naming variable constants? Explain in your own words.
+A. Name of variable is meaningfull to clear the function that can easily to understand to the team works togather 
+   Example: let name = "faraz";
+         let number = "1,2,3";
+         let string = "let me do the work";
+   - good
+
 13. Define the following in your own words - what is a function in terms of programming? 
+A. In programming function play an emportant part in programming it can difficult programming task in to smaller and more easily.
+   - partially correct - functions also have a particular role or purpose that they have.
+   - we need to discuss
+
 14. What is best practice for naming a function?
+A. Naming a function according to the situtation function firstName =("faraz"){
+                                                function lastName =("Hassan")
+                                                function age=('38'){
+}
+   - we need to discuss
+
 15. What is the comparison type of the following expression or the value of isGreater --  let isGreater = 4 > 1; Explain what javascript is doing with the numbers.
+ let isGreater = 4 > 1;
+ console.log(isgreater);
+ if it makes a greater num so it return 4
+ if it makes boolean function true 
+
+
 16. Learn to use the typeof operator. Explain what the operator tells you about a variable. Give specific examples on each javascript type.
+A. Types of operators : 
+stirngs : name 
+number  : 123
+boolean : true ,  false
+undefined : 
+bigint : 12345678910
+
 17. Look up examples of variable naming conventions. Give me a good explanation of best practices used for naming variables.
+A. Namming conventions function name , if ,else , _, $ .
