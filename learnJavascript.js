@@ -11,9 +11,9 @@ function maxNumber(num1, num2) {
 
   console.log("Inside maxNumber function");
 
-  console.log("The typeof values for each parameter is num1: " + typeof num1 + "  and num2: " + typeof num2);
+  //console.log("The typeof values for each parameter is num1: " + typeof num1 + "  and num2: " + typeof num2);
 
-  console.log('The input parameters being passed in are -- num1: ' + num1 + ' num2: ' + num2);
+  //console.log('The input parameters being passed in are -- num1: ' + num1 + ' num2: ' + num2);
 
   if (num1 == null) {
     console.log('NULL values passed in -- num1:' + num1 + ' num2: ' + num2);
@@ -25,28 +25,16 @@ function maxNumber(num1, num2) {
 
 // this method works fine and doesn't need to be changed
 // uncomment and run each function call one at a time. comment it out after being done.
-console.log("This is a line being called before calling the maxNumber function");
+//console.log("This is a line being called before calling the maxNumber function");
 
 //maxNumber("test", 25);
- maxNumber(35, 25);
+//maxNumber(35, 25);
 
 // //fix the code above to make the following work, run one function call at a time.
-// maxNumber(45, null);
+ maxNumber(45, null);
 // maxNumber(23,true);
 // maxNumber("test string", "test string2");
 // maxNumber(10,10);
 // maxNumber(10, null)
-// //Reference question no:2
-// //with var vaiable
-let firstName = 'faraz';
-let lastName = 'hassan';
-console.log("The typeof first name is: " + typeof firstName);
-console.log(lastName);
-
-firstName = 22;
-console.log("The typeof first name is: " + typeof firstName);
 
 
-// //with let variable
-// let frstNm = 'faraz hassan';
-// console.log(firstName);
