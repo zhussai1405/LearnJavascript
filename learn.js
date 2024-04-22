@@ -18,6 +18,20 @@ console.log('type of value in boolean: ' + value);
 let string = '123';
 console.log('the type of value in stirng:' + string);
 
+//Boolean in the result
+console.log(5 > 4);
+console.log(5 < 4);
+console.log(5 == null);
+console.log(null == 5);
+console.log(undefined == 5);
+console.log(5 == undefined);
+console.log(5 != 4);
+
+//string comparison wheather string is greater another 
+console.log('R' > 'A');
+console.log('A' > 'R');
+
+
 
 
 
