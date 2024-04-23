@@ -1,3 +1,20 @@
+function maxNumber(num1, num2) {
+    if (num1 == null) {
+      console.log('null value passed in for num1' + num1);
+    } else {
+      console.log('null value passed in for num2' + num2);
+    }
+    if (num1 == null) {                                 
+        return true;
+    }else{
+        return false;
+    }
+}
+
+console.log(maxNumber(45,null));                    //num1 45 not equal to null return null, or boolean return false
+
+
+
 //variable , variable name = variable value
 let fullName = 'Rahim Hassan';
     age = '3';
