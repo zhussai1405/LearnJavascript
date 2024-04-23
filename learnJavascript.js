@@ -29,7 +29,7 @@ function maxNumber(num1, num2) {
   
 
 console.log(maxNumber(45,null));
-console.log(maxNumber(35 , 25));
+
 
 // this method works fine and doesn't need to be changed
 // uncomment and run each function call one at a time. comment it out after being done.
