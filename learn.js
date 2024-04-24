@@ -13,6 +13,15 @@ function maxNumber(num1, num2) {
 
 console.log(maxNumber(45,null));                    //num1 45 not equal to null return null, or boolean return false
 
+//string conversion 
+let str = "456";
+console.log(typeof str);
+
+console.log(null > 0); //false
+console.log(null == 0); //false
+console.log(null === 0); //ture
+console.log(undefined <= 0);  //true
+
 
 
 //variable , variable name = variable value

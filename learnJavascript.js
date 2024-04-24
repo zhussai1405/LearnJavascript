@@ -10,25 +10,39 @@
 function maxNumber(num1, num2) {
 
   
-  //console.log("The typeof values for each parameter is num1: " + typeof num1 + "  and num2: " + typeof num2);
+  console.log("Inside maxNumber function: ");
 
-  //console.log('The input parameters being passed in are -- num1: ' + num1 + ' num2: ' + num2);
+  console.log("The typeof values for each parameter is num1: " + typeof num1 + "  and num2: " + typeof num2);
+
+  console.log('The input parameters being passed in are -- num1: ' + num1 + ' num2: ' + num2);
 
   if (num1 == null) {
-    console.log('null value passed in for num1' + num1);
-  } else {
-    console.log('null value passed in for num2' + num2);    //null return
-  }
-  if (num1 == null) {
-      return true;
-  }else{
-      return false;                                       //boolean return
+    console.log('One of the input parameters being passed in is null -- num1:' + num1 + ' num2: ' + num2);
+    console.log('NULL values passed in -- num1:' + num1 + ' num2: ' + num2);
   } 
-
+  else if (num1 == undefined) {
+   
+    console.log('One of the input parameters being passed in is -- undefined ' + num1 + ' num2: ' + num2);
+  } 
+  else if (typeof num1 === 'boolean') {
+    console.log('One of the input parameters is a boolean and is not an acceptable input parameter - num1: ' + num1 + ' and num2: ' + num2 );
+  } 
+  else if (typeof num1 === 'number' && typeof num2 === 'number') {
+    if (num1 > num2) {
+      console.log(`Number ${num1} is greater than Number ${num2}`);
+    } 
+    else {
+      console.log(`Number ${num1} is less than Number ${num2}`);
+    }
   }
-  
+  else{
+      console.log("Something went wrong or some scenario was not handled correctly.");
+  }
+}
 
-console.log(maxNumber(45,null));
+
+
+
 
 
 // this method works fine and doesn't need to be changed
@@ -36,12 +50,12 @@ console.log(maxNumber(45,null));
 //console.log("This is a line being called before calling the maxNumber function");
 
 //maxNumber("test", 25);
-//maxNumber(35, 25);
-
+maxNumber(35, 25);
+maxNumber(15, 25);
 // //fix the code above to make the following work, run one function call at a time.
-//maxNumber(45, null);
-// maxNumber(23,true);
-//maxNumber("test string", "test string2");
+maxNumber(45, null);
+maxNumber(23,true);
+maxNumber("test string", "test string2");
 //maxNumber(10,10);
-//maxNumber(10, null);
+maxNumber(10, null);
 
