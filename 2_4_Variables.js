@@ -20,10 +20,11 @@ value = 2;
 console.log(value);
 
 //we can declared two variables and copy data from one into the other 
-//  let firstName = "Ahmed";
-//  lastName = "Hassan";
-//  console.log(firstName);
-//  console.log(lastName);
+  let firstName = "Ahmed";
+  let lastName = "Hassan";
+  
+  console.log(firstName);
+  console.log(lastName);
  
 
 //To declare a constant (unchanging) variable, use const instead of let:
