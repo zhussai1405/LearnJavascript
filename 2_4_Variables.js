@@ -7,11 +7,11 @@ console.log("The test message output: " + msg);
 let userName = "Ahmed";
 let age = 5;
 let message = 'Ahmed is five years old, He read in class Prep-1';
-console.log(userName, age, message);
+console.log("UserName:" + userName, "Age: " + age, "Message: " +message);
 
 //we can use multiple variables in one line :
 let name = "Rahim" , ageNum = 3 , msge = "He is not going school yet";
-console.log(name, ageNum, msge);
+console.log("firstName: " +name, "Age: " + ageNum, "Message: " + msge);
 
 //we can change the value or variable put in another 
 let value;

@@ -4,9 +4,9 @@
 let a = 1, b = 1;
 
 let c = ++a; 
-console.log(c);
+console.log("Increment sign is added before: "+ c);
 let d = b++; 
-console.log(d);
+console.log("Increment sign is added after: " + d);
 
 //Basic Operator Math
 //Unary operands if its single
@@ -74,11 +74,11 @@ console.log(numb);
 //Increment / Decrement 
 let counter = 2;
 counter++;
-console.log(counter);
+console.log("The increament sign is added after: " + counter);
 
 let count = 2;
 count--;
-console.log(count);
+console.log("The decrement sign is added after: " +count);
 
 
 
