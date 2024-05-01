@@ -2,21 +2,21 @@
 //while loop
 let i = 0;
 while (i < 3) { 
-  console.log( i );
+  console.log('Loop iteration start 0 to 3: ' + i );
   i++;
 }
 
 // when j become 0 condition become falsy
 let j = 3;
 while (j) { 
-  console.log( j );
+  console.log('Loop start in decrement operator: ' + j);
   j--;
 }
 
 // Do while loop 
 let k = 0;
 do {
-  console.log( k );
+  console.log('do while loop' + k);
   k++;
 } while (k < 3);
 
@@ -27,4 +27,5 @@ for (l = 0; l < 3; l++) {
   console.log(l); 
 }
 
-console.log(l); 
+console.log('for Loop' + l); 
+
