@@ -12,38 +12,38 @@ console.log("Increment sign is added after: " + d);
 //Unary operands if its single
 let r = 1;
 r = -r;
-console.log(r);
+console.log("The value of 'r' is negeitve: " + r);
 
 //The binary operands has two operands
 
 let x = 2 , y = 4;
-console.log(y - x);
+console.log("Basic opertor subtraction the values: " + y - x);
 
 let e = 2 , f = 4;
-console.log(e + f);
+console.log("Basic opertor Addition the valuese: " + f);
 
 //Remainder
 let g = 5, h = 6;
-console.log(h % g);
+console.log("Remainder value: " + h % g);
 
 //Exponentation 
-console.log(2**2);
-console.log(2**3);
+console.log("Square of Two: " + 2**2);
+console.log("Cube of Tube: " + 2**3);
 //squareroot or cubeic root
-console.log(2**(1/2));
-console.log(2**(1/3));
+console.log("Square Root: " + 2**(1/2));
+console.log("cubic Root: " + 2**(1/3));
 
 //string concatenation with binary +
 let name = "Faraz"+"Hassan";
-console.log(name);
+console.log("concatenation the name: " +name);
 
 let str = "1";
 let num = 2;
-console.log("1" + 2);
+console.log("concatenation the string or num: " + ("1" + 2));
 
 let s = 1;
 let n = "2";
-console.log(2 + "1");
+console.log("concatenation the num or string: " + (2 + "1"));
 
 //Unary conversion unary +
 let i = 1;
@@ -75,6 +75,11 @@ console.log(numb);
 let counter = 2;
 counter++;
 console.log("The increament sign is added after: " + counter);
+
+let minusCounter = 1;
+--minusCounter;
+console.log(minusCounter);
+
 
 let count = 2;
 count--;

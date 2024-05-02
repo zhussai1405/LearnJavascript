@@ -3,30 +3,44 @@
 let name = "abc";
 console.log(typeof name);
 
-//numeric conversion 
-let str = "123";
+
+let str;
+str = "123";
 console.log(typeof str);
 
-let num = 123;
+//numeric conversion 
+let numStr = "123";
+let numValue = Number(numStr);
+console.log(numStr);
+
+
+let num;
+num = 123;
 console.log(typeof num);
-
-
-
-
 
 
 //boolean conversion
 let value = 0;
-console.log(Boolean(value));
-
 let val = 1;
-console.log(Boolean(val));
+if(value){
+    console.log('Value is truthy'); //value 0 is not true 1 is truthy value:
+} else {
+    console.log('Value is falsy');  // value 0 is falsy value:
+} if (val){
+    console.log('value is truthy'); // value 1 is truthy value:
+} else {
+    console.log('value is falsy');
+}
 
+
+
+//Non-Empty string boolean is always truthy; 
 let msg = "Hello";
-console.log(Boolean(msg));
+console.log("Non-Empty string is truthy: " + Boolean(msg));
 
+//Empty string:
 let no = ("");
-console.log(Boolean(no));
+console.log("Empty string is always falsey: " + Boolean(no));
 
 
 
