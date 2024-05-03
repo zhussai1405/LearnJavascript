@@ -1,5 +1,13 @@
 "use strict";
 
+let firstNamee = "Faraz"
+let agee = 38;
+agee = agee +1;
+console.log("My name is " + firstNamee);
+console.log("I am", agee ,"years old");
+console.log("Next month i am",agee,"years old");
+
+
 let msg = "This is a test message";
 console.log("The test message output: " + msg);
 

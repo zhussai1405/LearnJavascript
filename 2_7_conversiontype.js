@@ -3,20 +3,25 @@
 let name = "abc";
 console.log(typeof name);
 
+//change string to a number
+let nameAsNumber = "123";
+nameAsNumber = Number(name);
+console.log(typeof nameAsNumber);
+
 
 let str;
 str = "123";
 console.log(typeof str);
 
-//numeric conversion 
+//String conversion 
 let numStr = "123";
 let numValue = Number(numStr);
 console.log(numStr);
 
 
-let num;
-num = 123;
-console.log(typeof num);
+let number = 123;
+let string = String(number); 
+console.log(typeof string);
 
 
 //boolean conversion
