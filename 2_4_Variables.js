@@ -1,4 +1,19 @@
 "use strict";
+//Variable declared with var
+var firstName = "Ahmed";
+var firstName = "Hassan";
+console.log(firstName);
+
+//Vaiable declared with let 
+let name$;
+name$ = "Rahim Hassan";
+console.log(name$);
+
+//Variable declared with const 
+const myBirthday = "08.05.1985";
+console.log(myBirthday);
+
+
 
 let firstNamee = "Faraz"
 let agee = 38;
@@ -28,7 +43,7 @@ value = 2;
 console.log(value);
 
 //we can declared two variables and copy data from one into the other 
-  let firstName = "Ahmed";
+  let firstName_ = "Ahmed";
   let lastName = "Hassan";
   
   console.log(firstName);

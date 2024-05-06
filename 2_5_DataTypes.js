@@ -54,7 +54,8 @@ console.log( 3 * NaN ); // NaN
 console.log( "not a number" / 2 - 1 ); // NaN
 
 //Null or Undefined 
-let age = null;
+let age = 100;
+age = null;
 console.log(age);
 
 //Undefined

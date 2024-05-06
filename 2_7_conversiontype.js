@@ -3,10 +3,16 @@
 let name = "abc";
 console.log(typeof name);
 
+//Boolean type conversion
+let boolValue = true;
+console.log(typeof boolValue);  //conversion type boolean 
+
+
+
 //change string to a number
-let nameAsNumber = "123";
-nameAsNumber = Number(name);
-console.log(typeof nameAsNumber);
+let strAsNumber = "123";
+strAsNumber = Number(strAsNumber);
+console.log(typeof strAsNumber);
 
 
 let str;
@@ -46,6 +52,22 @@ console.log("Non-Empty string is truthy: " + Boolean(msg));
 //Empty string:
 let no = ("");
 console.log("Empty string is always falsey: " + Boolean(no));
+
+let strNum = "100" + 24;
+console.log(strNum);
+
+//String conversion into numeric 123
+let str_ = "123";
+str_ = Number(str_);
+console.log("Convert string into numeric converion in number: " + str_);
+
+//String conversion into numeric 123
+let numString = 123;
+numString = num.toString(123);
+console.log("Convert number into string value: " + numString);
+
+
+
 
 
 
