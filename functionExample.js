@@ -10,7 +10,7 @@ message(5/2);
 message(10-2);
 
 
-function valCompare(x ,y){
+function valCompareNumberMax(x ,y){
 
 if(x > y){
         return x;
@@ -22,7 +22,7 @@ if(x > y){
 
 //valCompare(2 , 4);
 
-console.log(valCompare(2 , 4));
+console.log(valCompareNumberMax(2 , 4));
 
 
 function sum(a , b){
@@ -68,13 +68,13 @@ let isGreater = ("6", 2);
 
 
     //String converted to a number
-    function strNum (){
-    let strNum = "35";
+    function strToNumConvert (strNum){
+    //let strNum = "35";
     let numValue = Number(strNum);
     console.log(`The string "${strNum}" converted to a number is ${numValue}`);
     }
     
-strNum();
+    strToNumConvert();
 
 
 //Number converted to a string
@@ -86,5 +86,36 @@ function numberString (){
     
 numberString();
 
+//compare two of the greater numbers
+function compareValue(x,y){
+    if(x > y){
+        return true;
+    }else{
+        return false;
+    }
 
+    }
+console.log(compareValue(4,3));
 
+//function comparison with null value
+function compareValues() {
+        return 0 == null;
+    }
+    
+    console.log(compareValues());
+
+//function comparison with undefined
+function compValue(){
+    return null == undefined;
+    
+}
+console.log(compValue());
+
+//comparison for check different types 
+console.log("2" > 1);       //2 converts into number 2 > 1 : true
+console.log("02" > 1);      //02 converts into number 02 > 1: true
+console.log(null > 0);      //null is not a number so it cant be > then 0 : false
+console.log(null == 0);     //null is not a number so it not equal to 0: false
+console.log(null >= 0);     //Comparison converts null to a number
+console.log(null == undefined); //null is equal to undefined :
+console.log(null === undefined);    
