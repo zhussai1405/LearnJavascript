@@ -25,15 +25,15 @@ if(x > y){
 console.log(valCompareNumberMax(2 , 4));
 
 
-function sum(a , b){
+function sumofTwoNumbers(a , b){
     console.log(a + b);
 }
 
-sum(50,50);
+sumofTwoNumbers(50,50);
 
 //Function with all DataType conversion 
 //Boolean type conversion
-function dataTypeConversion(value){
+function booleanTypeConversion(value){
 
     let valueCompare = value;
     if("6" == 2){
@@ -43,7 +43,7 @@ function dataTypeConversion(value){
     }
     
 }
-console.log(dataTypeConversion("6"== 2));
+console.log(booleanTypeConversion("6"== 2));
 
 function isGreater(){
 let isGreater = ("6", 2);
@@ -78,16 +78,16 @@ let isGreater = ("6", 2);
 
 
 //Number converted to a string
-function numberString (){
+function numbertoString (){
     let number = 45;
     let stringValue = number.toString();
       console.log(`The number ${number} converted to a string is: "${stringValue}"`);
     }
     
-numberString();
+numbertoString();
 
 //compare two of the greater numbers
-function compareValue(x,y){
+function compareisGreaterNum(x,y){
     if(x > y){
         return true;
     }else{
@@ -95,14 +95,14 @@ function compareValue(x,y){
     }
 
     }
-console.log(compareValue(4,3));
+console.log(compareisGreaterNum(4,3));
 
 //function comparison with null value
-function compareValues() {
+function equalCompare() {
         return 0 == null;
     }
     
-    console.log(compareValues());
+    console.log(equalCompare());
 
 //function comparison with undefined
 function compValue(){

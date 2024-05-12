@@ -25,3 +25,13 @@ maxCompareNumbers(null,null);
         }
         
         strToNumConvert("45");
+
+        //number to string convert
+        function numbertoString(number){
+            let stringValue = number.toString();
+            console.log(`The number ${number} converted to string is: "${stringValue}"`);
+        }
+
+        numbertoString(55);
+
+        
