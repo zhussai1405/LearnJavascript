@@ -34,4 +34,33 @@ maxCompareNumbers(null,null);
 
         numbertoString(55);
 
-        
+       //boolean function check 
+       function booleanCheck(value){
+        if(value === true || value === false){
+            return "The value is true"
+        }else{
+            return "The value is false"
+        }
+       } 
+     console.log(booleanCheck(true,false));
+
+     //Type conversion = change datatype of a value to another
+     // (string , number , boolean)
+     let age = 38;
+     age += 1;
+     console.log("Happy Birthday! You are",age, "years old.");
+
+     //conversion values into string,number, boolean  
+     let x;
+     let y;
+     let z;
+     x = Number("3.14");    //conversion string into a number
+     y = String(3.14);      //conversion number into a string
+     z = Boolean("");       //Empty string into a boolean
+     console.log(x, typeof x);
+     console.log(y, typeof y);
+     console.log(z, typeof z);
+
+
+
+

@@ -1,4 +1,13 @@
 "use strict";
+//A variale is a container for storing data
+//A variable beahaves as if it was the value that it was the value that it contains
+
+//Two steps:
+//1: Declaration (var, let, const)
+//2: Assingnment (= assignment operator)
+
+
+
 //Variable declared with var
 var firstName = "Ahmed";
 var firstName = "Hassan";
