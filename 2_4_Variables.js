@@ -20,6 +20,8 @@ console.log(name$);
 
 //Variable declared with const 
 const myBirthday = "08.05.1985";
+//This is fail because you can't reassined a const variable.
+//myBirthday = "05";  
 console.log(myBirthday);
 
 
@@ -59,12 +61,10 @@ console.log(value);
   console.log(lastName);
  
 
-//To declare a constant (unchanging) variable, use const instead of let:
-const dateOfBirth = '08.05.1985';
-console.log(dateOfBirth);
 
 //Difference between var , let and const.
 //Variable with var.
+//Explaining that var is Global variable and its redeclared outside the blockscope.
 if (true){
   var varVariable = 'This is ture'
 }
@@ -74,9 +74,7 @@ console.log(varVariable);
 
 //Variable with let.
 let letVariable = 'let with var'
-if (true){
-  
-}
+
 
 console.log(letVariable);
 

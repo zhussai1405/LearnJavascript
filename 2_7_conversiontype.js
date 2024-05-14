@@ -37,7 +37,9 @@ if(value){
     console.log('Value is truthy'); //value 0 is not true 1 is truthy value:
 } else {
     console.log('Value is falsy');  // value 0 is falsy value:
-} if (val){
+} 
+
+if (val){
     console.log('value is truthy'); // value 1 is truthy value:
 } else {
     console.log('value is falsy');
@@ -60,11 +62,6 @@ console.log(strNum);
 let str_ = "123";
 str_ = Number(str_);
 console.log("Convert string into numeric converion in number: " + str_);
-
-//String conversion into numeric 123
-let numString = 123;
-numString = num.toString(123);
-console.log("Convert number into string value: " + numString);
 
 
 

@@ -40,4 +40,30 @@ if (0 == 1) {
 
 
 
+function mySpeed(mySpeed){
+  if(mySpeed < 25){
+    console.log("Speed is going to slow:");
+  }else if(mySpeed < 55){
+    console.log("My speed is OK");
+  }else if(mySpeed > 55){
+    console.log("Speed  is going to fast");
+  }else{
+    console.log("Speed is fast, going to slow");
+  }
+
+
+}
+mySpeed(38);
+
+//speed < 25 console.log statement is going to slow:
+//mySpeed(10) 
+
+
+
+//speed is between 25 to 55  console.log statement is going to speed is OK:
+//mySpeed(38) 
+
+
+//speed > 55 console.log statement is going to fast:
+//mySpeed(70) 
     
