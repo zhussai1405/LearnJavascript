@@ -2,12 +2,22 @@
 
 //Global variable
 let a = "apple";
-function fruit(){
-   console.log("A for, " + a);
+function fruits(){
+console.log("A for, " + a);
    
 }
 
+fruits();
+
+//Local variable
+function fruit(){
+   let b = "banana";
+  console.log("B for, " + b);
+
+  
+}
 fruit();
+
 
 //Function declaration 
 let firstName = "Ahmed";
@@ -42,14 +52,6 @@ function greet(name) {
  console.log(name("Ahmed Hassan")); 
  
 
-//Local variable
-function fruit(){
-    let b = "banana";
-   console.log("B for, " + b);
-
-   
-}
-fruit();
 
 //HappyBirthday song in function decalration
 function happyBirthday(name,age){
@@ -60,21 +62,21 @@ function happyBirthday(name,age){
    console.log("Happy Birthday to you");
    
 }
-happyBirthday("Faraz", 39);
+happyBirthday("Ahmed", 6);
 
-//function add two numbers 
-function add(x,y){
+//function of expression add two numbers 
+let sum = function(x,y){
    let result = x+y;
    console.log(result);
 }
-add(2,3);
+sum(2,3);
 
-//function subtract two numbers
-function subtract(x,y){
-   let result = x-y;
+//function  of expression subtract two numbers
+let subtract = function(b,c){
+   let result = b - c;
    console.log(result);
 }
-subtract(4-1);
+subtract(4,1);
 
 //function divide two numbers
 function divide(x,y){
@@ -84,11 +86,25 @@ function divide(x,y){
 divide(10,2);
 
 //function remainder two numbers
-function remainder(x,y){
-   let result = x%y;
+function remainder(x , y){
+   let result = x % y;
    console.log(result);
 }
 remainder(3,2);
 
+//Function even or odd
+function evenOrOdd(number){
+   if(number % 2 === 0){
+      return "Even";
+   }else{
+      return "Odd";
+   }
+}
+let number1 = 10;
+let number2 = 7;
+let number3 = 15;
+console.log(number1 + 'is ' + evenOrOdd(number1));
+console.log(number2 + 'is ' + evenOrOdd(number2));
+console.log(number3 + 'is ' + evenOrOdd(number3));
 
 

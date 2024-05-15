@@ -62,3 +62,17 @@ switch(dayName){
 console.log("The day is: " + dayName)
 
 
+//Switch case for right age for driving license
+let age = 18;
+switch(age){
+    case 18:
+        console.log("Eligible for driving license");
+        break;
+    case 15:    
+        console.log("Not eligible for driving license");
+        break;
+    default:
+        console.log("Invalid age enter");  
+        break;  
+}
+

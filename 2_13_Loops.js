@@ -1,13 +1,13 @@
 "use strict"
-//while loop
+//while loop with i++
 let i = 0;
-while (i < 3) { 
-  console.log('Loop iteration start 0 to 3: ' + i );
+while (i < 5) { 
+  console.log('Loop iteration start 0 to 5: ' + i );
   i++;
 }
 
-// when j become 0 condition become falsy
-let j = 3;
+// when j become j-- reverse the loop
+let j = 5;
 while (j) { 
   console.log('Loop start in decrement operator: ' + j);
   j--;
@@ -16,7 +16,7 @@ while (j) {
 // Do while loop 
 let k = 0;
 do {
-  console.log('do while loop' + k);
+  console.log('do while loop: ' + k);
   k++;
 } while (k < 3);
 
@@ -28,4 +28,5 @@ for (l = 0; l < 3; l++) {
 }
 
 console.log('for Loop' + l); 
+
 
