@@ -6,6 +6,12 @@
 //1: Declaration (var, let, const)
 //2: Assingnment (= assignment operator)
 
+// convert boolean value into string
+let boolValue = true;
+boolValue = String(boolValue); // now value is a string "true"
+console.log(typeof boolValue); // string
+
+
 
 
 //Variable declared with var

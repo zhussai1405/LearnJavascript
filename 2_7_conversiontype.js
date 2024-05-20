@@ -63,6 +63,21 @@ let str_ = "123";
 str_ = Number(str_);
 console.log("Convert string into numeric converion in number: " + str_);
 
+//string convatenation with unary +
+let s = "my" + "string";
+console.log(s); // mystring
+
+//unary operands in string
+let concatStrNum = '1' + 2;
+console.log(concatStrNum); // "12"
+console.log(typeof concatStrNum); //type of string
+
+//unary operands in string
+let concatStringNum = 2 + 2 + '1';
+console.log(concatStringNum); // "12"
+console.log(typeof concatStringNum); //type of string
+
+
 
 
 

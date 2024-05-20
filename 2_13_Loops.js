@@ -3,7 +3,7 @@
 let i = 0;
 while (i < 5) { 
   console.log('Loop iteration start 0 to 5: ' + i );
-  i++;
+  i++;      //0,1,2,3,4 Loop i++ is 0 to 4 
 }
 
 // when j become j-- reverse the loop
