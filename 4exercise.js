@@ -6,6 +6,9 @@
 //Example word: lrgstNbr(3,6,9) -> 9 or (4,10,6) -> 10
 //Name the function appropriately
 //The function will have 3 parameters
+//
+//Very good Faraz, your code works but there is 1 issue
+//look at your logic on line 17 and tell me why line 18 will never execute? That line becomes unnecessary
 
 
 
@@ -28,3 +31,5 @@ console.log("The largest number is 3 6 9" + lrgstNbr(3, 6,  9));
 
 let result1 = lrgstNbr(5, 10, 15);
 console.log("The largest number is 5, 10, 15" + lrgstNbr(5, 10 ,15));
+
+console.log("The largest number is: " + lrgstNbr(5, 19 ,15));

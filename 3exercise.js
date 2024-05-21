@@ -10,6 +10,9 @@
 //The function will have 1 parameter
 //convert parameter to array 
 //Get first element of arary and convert uppercase.
+//
+//Very good Faraz
+
 
 
 
@@ -21,3 +24,6 @@ function capitalizeWord(str){
 const str = "test";
 const result = capitalizeWord(str);
 console.log(result);
+
+const result2 = capitalizeWord("capitalize");
+console.log(result2);
