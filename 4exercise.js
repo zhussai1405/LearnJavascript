@@ -14,9 +14,6 @@
 
 function lrgstNbr(num1, num2, num3){
     let lrgstNbr = num1;
-    if(num1 > lrgstNbr){
-        lrgstNbr = num1;
-    }
     if(num2 > lrgstNbr){
         lrgstNbr = num2;
     }
@@ -27,9 +24,9 @@ function lrgstNbr(num1, num2, num3){
 
 }
 let result = lrgstNbr(3, 6 , 9);
-console.log("The largest number is 3 6 9" + lrgstNbr(3, 6,  9));
+console.log("The largest number is: " + lrgstNbr(3, 6, 9));
 
 let result1 = lrgstNbr(5, 10, 15);
-console.log("The largest number is 5, 10, 15" + lrgstNbr(5, 10 ,15));
+console.log("The largest number is: " + lrgstNbr(5, 10 ,15));
 
 console.log("The largest number is: " + lrgstNbr(5, 19 ,15));

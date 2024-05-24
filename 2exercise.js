@@ -12,6 +12,40 @@
 //the function needs to return the variable.
 
 
-function reverseWord(word){
+
+//     //for example
+//     //[ 'R', 'a', 'h', 'i', 'm' ]
+//     //'R', 'a', 'h', 'i', 'm'
+//     // 0 ,   1 ,  2  , 3,   4 
+
+//     console.log("Before for loop");
+
+
+
+function wordReverse(word) {
     
+    let charArray = [];
+    for (let i = 0; i < word.length; i++) {
+        charArray[i] = word[i];
+    }
+    
+    
+    let wordReverse = '';
+    
+
+    for (let i = charArray.length - 1; i >= 0; i--) {
+    
+        wordReverse += charArray[i];
+    }
+    
+    
+    return wordReverse;
 }
+
+
+console.log(wordReverse("Rahim")); 
+console.log(wordReverse("Ahmed")); 
+    
+    
+    
+

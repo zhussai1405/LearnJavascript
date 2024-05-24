@@ -22,12 +22,16 @@
 //also get the last element of the array and store it in a different variable
 //update the original string at the first element and the last element with the switched variable letters
 
-function swapFirstAndLast(value){
-   let length = value.length;
-   return (
-   value.charAt(length -1) + value.charAt(0)
-   );
-    
+function swapFirstAndLast(string){
+   let array = string.split('');
+
+   let firstElement = array[0];
+   let lastElement =array[array.length - 1];
+   
+   array[0] = lastElement;
+   array[array.length - 1] = firstElement;
+   let result = array.join('');
+   return result;
     
 }
 

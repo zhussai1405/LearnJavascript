@@ -24,6 +24,3 @@ function capitalizeWord(str){
 const str = "test";
 const result = capitalizeWord(str);
 console.log(result);
-
-const result2 = capitalizeWord("capitalize");
-console.log(result2);
