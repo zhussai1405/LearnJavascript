@@ -22,8 +22,8 @@
 //also get the last element of the array and store it in a different variable
 //update the original string at the first element and the last element with the switched variable letters
 
-function swapFirstAndLast(string){
-   let array = string.split('');
+function swapFirstAndLast(swapString){
+   let array = swapString.split('');
 
    let firstElement = array[0];
    let lastElement =array[array.length - 1];
@@ -35,6 +35,5 @@ function swapFirstAndLast(string){
     
 }
 
-let word = "Pindi";
-let swappedWord = swapFirstAndLast(word);
+
 console.log(swapFirstAndLast("Pindi"));

@@ -18,9 +18,8 @@
 
 
 function capitalizeWord(str){
-   const capitalizeWord = str.charAt(0).toUpperCase() + str.slice(1)
-    return capitalizeWord;
+   const capWord = str.charAt(0).toUpperCase() + str.slice(1)
+    return capWord;
 }
-const str = "test";
-const result = capitalizeWord(str);
-console.log(result);
+
+console.log(capitalizeWord('test'));
