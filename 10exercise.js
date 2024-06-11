@@ -5,13 +5,13 @@
 // If true, log "You can vote" to the console
 // If false, log "You cannot vote"
 
+let age = 18;
 
-
-
-
-
-
-
+if (age >= 18) {
+  console.log("You can vote.");
+} else {
+  console.log("You cannot vote.");
+}
 
 
 
@@ -24,17 +24,19 @@
 // If score is greater than or equal to 60, log "D"
 // If score is less than 60, log "F"
 
-
-
-
-
-
-
-
-
-
-
-
+let score = 85;
+if(score >= 90){
+    console.log("A");
+}else if(score >= 80){
+    console.log("B");
+}else if(score >= 70){
+    console.log("C");
+}else if(score >= 60){
+    console.log("D");
+}else{
+    console.log("F");
+}
+    
 
 
 
