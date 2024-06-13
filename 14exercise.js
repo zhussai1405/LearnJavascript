@@ -18,6 +18,22 @@
 //   greet('Bob');
 
 
+//Function Expression
+    const greet = function(name) {
+       console.log(`Hello, ${name}!`);
+   };
+      
+    
+    greet('Alice');
+
+//Function Declaration 
+    function greeting(name) {
+        console.log(`Hi, ${name}!`);
+      }
+          
+    greeting('Bob');
+
+
 
 
 
@@ -32,8 +48,15 @@
 //   console.log(square(5));
 
 // //Explain what an anonymous function is  
+    //anonymous mean function have no name or its used for temporarily aurgument.
 
 
+const square = function(num) {
+    return num * num;
+     };
+      
+    
+    console.log(square(5));
 
 
 //Question
@@ -50,7 +73,15 @@
 //   console.log(result);
 
 //Explain what Immediately Invoked Function Expressions (IIFE) and what they are used for
+(function() {
+        console.log('This is an IIFE!');
+       })();
 
+const result = (function(a, b) {
+      return a + b;
+       })(3, 5);
+          
+        console.log(result);
 
 
 
@@ -66,11 +97,12 @@
 // Call the arrow function and log the result
 //console.log(square(7));
 
-
-
-
-
-
+const squareRoot = (num) => {
+    return num * num;
+     };
+      
+    
+    console.log(squareRoot(5));
 
 
 
@@ -89,3 +121,13 @@
 
 // Explain what is happening in the code above
 
+
+function createGreeting(name) {
+     return function() {
+       console.log(`Hello, ${name}!`);
+     };
+   }
+  
+   
+  const greetAlice = createGreeting('Alice');
+   greetAlice();

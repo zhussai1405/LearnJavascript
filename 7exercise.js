@@ -1,3 +1,4 @@
+"use strict";
 
 //Question 1
 // Declare a variable and assign it a number value
@@ -6,16 +7,16 @@
 // Declare a variable with a very large integer value (e.g., 9007199254740991)
 // Check its type and explain the output
 
-let x = 5;
-console.log(typeof x);      //number
+let x = 5;                  //Declare a vairable and assign a value
+console.log(typeof x);      //Check the type of variable
 
 
-let y = Infinity;
-console.log(typeof y);      //number
+let y = Infinity;           //Declare a vaiable and assign a infinity
+console.log(typeof y);      //check the type of variable
 
 
-const z = 9007199254740991;
-console.log(typeof z);          //number
+const z = 9007199254740991;     //Declare a variable and assign a value with bigint
+console.log(typeof z);          //check the type of variable 
 
 
 
@@ -28,14 +29,14 @@ console.log(typeof z);          //number
 // Try assigning a regular number and see what happens
 // Perform arithmetic operations (addition, subtraction, multiplication) with BigInt values
 
-let bigint = 1234567890;
-let reguNum = 50;
+let bigint = 1234567890;                        //Declare a variable and assign it a BigInt value
+let reguNum = 50;                               //Declare a variable and assign it a regular num
 let sum = bigint + reguNum;
-console.log(sum);
-let sub = bigint - reguNum;
-console.log(sub);
+console.log(sum);                               //sum the bigint , regular num
+let sub = bigint - reguNum; 
+console.log(sub);                               //sub the bigint , regular num
 let multip = bigint * reguNum;
-console.log(multip);
+console.log(multip);                            //multiply the bigint , regular num
 
 
 
@@ -47,13 +48,13 @@ console.log(multip);
 // Try concatenating strings using + operator
 // Check the type of a string variable
 
-let singleQuotes = 'Single quots';
-let doubleQuotes = "Double Quotes";
-let backTicks = `Backticks`
+let singleQuotes = 'Single quots';              //Decalre a variable with 'single quots'
+let doubleQuotes = "Double Quotes";             //Declare a variable with "single quots"
+let backTicks = `Backticks`                     //Declare a variable with `backticks`
 
 let singleQuoStr = 'Faraz';
 let doubleQuoStr = "Hassan";
-console.log(`embed the Concate single quote and double quote : " ${singleQuoStr} , ${doubleQuoStr}`);
+console.log(`embed the Concate single quote and double quote : " ${singleQuoStr} , ${doubleQuoStr}`); 
 console.log("concate the : " , singleQuoStr + doubleQuoStr);
         
 
@@ -64,44 +65,49 @@ console.log("concate the : " , singleQuoStr + doubleQuoStr);
 // Use comparison operators (>, <, ===, etc.) to get boolean results
 // Combine boolean values using logical operators (&&, ||, !)
 
-let num = (5 , 4);
+
+let varTrue = true;                                 //Declare a variable with boolean value
+let varFalse = false;                               //Declare a variable with boolean value
+let num5 = 5;                                       //Declare a variable with value 5
+let num4 = 4;                                       //Declare a variable with value4
+
 
 //comparison operator to get boolean result
 //comaprison with greater sign
-if (5 < 4) {
-  console.log("true");
+if (num5 < num4) {
+  console.log(`Comparison < to check :"  ${true}`);
 } else {
-  console.log("false");
+  console.log(`Comparison < to check :"  ${false}`);
 }
 //comparison with less than sign 
 if (4 > 5){
-    console.log("true");
+    console.log(`Comparison > to check :"  ${true}`);
 }else{
-    console.log('false')
+    console.log(`Comparison > to check :"  ${false}`);
 }
 //comparison with strict equality check
 if (5 === 4){
-    console.log("true")
+    console.log(`Comparison to strict check :"  ${true}`);
 }else{
-    console.log("false")
+    console.log(`Comparison to strict check :"  ${false}`);
 }
 // comaprison with and && operator sign
 if (5 == 5 && 3 == 3){
-    console.log("true")
+    console.log(`Comparison with && to equality check :"  ${true}`);
 }else{
-    console.log("false")
+    console.log(`Comparison with && to equality check :"  ${false}`);
 }
 //comparison with OR || Operator sign 
 if (5 == 4 || 2 == 3){
-    console.log("true")
+    console.log(`Comparison with OR operator to check equality:"  ${true}`);
 }else{
-    console.log("false")
+    console.log(`Comparison to check OR|| operator to check equality:"  ${false}`);
 }
 //comparison with Not! operator sign 
 if (5 != 4){
-    console.log("true");
+    console.log(`Comparison with not operator to check :"  ${true}`);
 }else{
-    console.log("false")
+    console.log(`Comparison with not operator to check :"  ${false}`);
 }
 
 
@@ -181,11 +187,11 @@ console.log(typeof value_);
 
 
 
-
-
-
 let valu = null;
 console.log(typeof valu);
+
+
+
 
 // types of Variable 
 let c = 5;
@@ -197,7 +203,7 @@ const e = 15;
 let age = 39;
 
 // Floating points
-let prince = 2.15;
+let price = 2.15;
 
 //string literals
 let greet = "Hello";

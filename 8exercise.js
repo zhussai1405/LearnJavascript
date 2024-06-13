@@ -8,11 +8,16 @@ let numberToString = String(number);
 
 let concatenatedString = "Number";
 console.log(concatenatedString);
-//boolean
-let booleanVal = true;
-let booleanToString = String(booleanVal);
 
+//boolean
+let boolVal = true;
+let strVal = String(boolVal);
+
+//this holds a string
 let concatenateString = "Boolean";
+//this holds a boolean
+let varBool= true;
+
 console.log(concatenateString);
 
 //null
@@ -27,7 +32,8 @@ console.log(concatString);
 let undefinedValue = undefined;
 let undefinedToString = String(undefinedValue);
 
-let concateString = "undefined";
+let concate
+String = "undefined";
 console.log(concatString);
 
 
@@ -63,10 +69,10 @@ if(isNaN(num)){
 let falsy = false;
 let truthy = true;
 console.log(Boolean(falsy));
-console.log(!!falsy);               //boolean result falsy
+console.log("Boolean result:" + !!falsy);               //boolean result falsy
 
 console.log(Boolean(truthy));       //boolean reault truthy
-console.log(!!truthy);
+console.log("Boolean result truthy: " + !!truthy);
 
 
 
@@ -98,7 +104,7 @@ let result1 = true + 1;         //true converted into number 1
 console.log(result1);
 
 
-let result2 = null * 2;         
+let result2 = null * 2;         //null is 0 and 0 * 2 = 0
 console.log(result2);
 
 
@@ -125,5 +131,5 @@ console.log(numValue);
 let booleanValue = Boolean([]);
 console.log(booleanValue);
 
-let stringValue = String(42);
-console.log(stringValue);
+// let stringValue = String(42);
+// console.log(stringValue);

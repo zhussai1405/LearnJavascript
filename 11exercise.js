@@ -11,8 +11,11 @@
 
 // // Try different combinations of boolean values
 
+let x = true;
+let y = false;
 
-
+let result = x && y;
+console.log(result);
 
 
 
@@ -27,6 +30,17 @@
 
 // // Try double negation (!!)
 // console.log(!!p); // Expected output: true
+
+let p = true;
+let q = false;
+
+console.log(!p);
+console.log(!q);
+
+console.log(!!p);
+console.log(!!q);
+
+
 
 
 
@@ -45,6 +59,16 @@
 // x || console.log('This will be printed');
 // y || console.log('This will not be printed');
 
+let a = 0;
+let b = 1;
+
+x && console.log("This will not be printed"); // because value of x is 0 falsy value
+y && console.log("This will  printed"); // because value of y is 1 true value
+
+x || console.log("This will printed"); // because value of x is 0 falsy value
+y || console.log("This will not be printed"); // because value of y is 1 true value
+
+
 
 
 
@@ -58,6 +82,13 @@
 // // Log the results to the console
 // console.log((x > 0) && (y > 0) && (z === 0)); // Expected output: true
 // console.log((x > 0) || (y < 0) || (z !== 0)); // Expected output: true
+
+let c = 5;
+let d = 10;
+let e = 0;
+
+console.log((c > 0) && (d > 0) && (e === 0)); 
+console.log((c > 0) || (d < 0) || (e !== 0)); // 
 
 
 
@@ -75,6 +106,16 @@
 //   greet('Alice'); // Expected output: 'Hello, Alice!'
 //   greet('Bob', undefined); // Expected output: 'Hello, Bob!'
 //   greet('Charlie', 'Hi'); // Expected output: 'Hi, Charlie!'
+
+    function greet(name , greeting){
+        let defaultGreeting = greeting ?? 'Hello';
+        console.log(`${defaultGreeting}, ${name}!`);
+
+    }
+    greet('Alice'); 
+    greet('Bob', undefined); 
+    greet('Charlie', 'Hi');
+
 
 
 
@@ -94,5 +135,12 @@
 // // Without parentheses, the expression is evaluated differently
 // result = a ?? b ?? c; // Expected output: 5
 // console.log(result);
+
+let f = 0;
+let g = null;
+let h = 5;
+
+let result_ = (f ?? g) ?? h; 
+console.log(result_);
 
 

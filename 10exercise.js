@@ -49,16 +49,17 @@ if(score >= 90){
 //   Else, log "Weekday"
 // If it's not a weekday (isWeekday is false), log "Holiday"
 
-
-
-
-
-
-
-
-
-
-
+let day = "Monday";
+let isWeekday = true;
+if(isWeekday){
+    if(day === "Saturday" || day === "Sunday"){
+        console.log("Weekend");
+    }else{
+        console.log("Weekday");
+    }
+}else{
+    console.log("Holiday");
+}
 
 
 
@@ -69,11 +70,11 @@ if(score >= 90){
 // Use the ternary operator to assign the larger value to a variable max
 // Log the value of max to the console
 
+let num1 = 50;
+let num2 = 60;
 
-
-
-
-
+let maxNum = (num1 > num2)? num1 : num2;
+console.log(maxNum);
 
 
 
@@ -84,20 +85,33 @@ if(score >= 90){
 // For example, if day is "1", log "Monday"
 // Include a default case for invalid input
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let weekDay = 6;
+switch (weekDay) {
+    case 1:
+        console.log("Monday");
+        break;
+        case 2:
+        console.log("Tuesday");
+        break;
+        case 3:
+        console.log("Wednesday");
+        break;
+        case 4:
+        console.log("Thursday");
+        break;
+        case 5:
+        console.log("Friday");
+        break;
+        case 6:
+        console.log("Saturday");
+        break;
+        case 7:
+        console.log("Sunday");
+        break;
+        default:
+        console.log("Invalid day");
+        break;
+}
 
 
 
@@ -108,19 +122,26 @@ if(score >= 90){
 // Log the result to the console
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+let falsyValue1 = 0;
+if(!falsyValue1){
+    console.log("Falsy value 1 is falsy.");
+}
+let falsyValue2 = "";
+if(!falsyValue2){
+    console.log("Falsy value 2 is falsy.");
+}
+let falsyValue3 = null;
+if(!falsyValue3){
+    console.log("Falsy value 3 is falsy.");
+}
+let falsyValue4 = undefined;
+if(!falsyValue4){
+    console.log("Falsy value 4 is falsy.");
+}
+let falsyValue5 = NaN;
+if(!falsyValue5){
+    console.log("Falsy value 5 is falsy.");
+}
 
 
 
@@ -130,3 +151,13 @@ if(score >= 90){
 // Use logical operators (&&, ||, !) to check if a person can drive
 // If age is greater than or equal to 18 AND (isStudent is true OR hasPermit is true), log "Can drive"
 // Otherwise, log "Cannot drive"
+
+let agee =17;
+let isStudent = true;
+let hasPermit = false;
+
+if(agee >= 18 && (isStudent || hasPermit)) {
+    console.log(("Can drive"));
+}else{
+    console.log("cannot drive");
+}
