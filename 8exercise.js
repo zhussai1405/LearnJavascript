@@ -3,41 +3,34 @@
 // Convert each variable to a string using String() and concatenation
 // Log the results and observe the differences
 //number
-let number = 50;
-let numberToString = String(number);
-
+let number = 50;                            //declare variable with number datatype
+let stringNumber = String(number);          // Convert variable to a string using String()
+let concatNumber = number + "";             //concate string number
+console.log(stringNumber);                  //log the result
 
 //Faraz, look up the word concatenate in dictionary and tell me what that means?
 //After looking up the word, are you concatenating a string in the below code?
-let concatenatedString = "Number";
-console.log(concatenatedString);
+
+
 
 //boolean
-let boolVal = true;
-let strVal = String(boolVal);
-
-//this holds a string
-let concatenateString = "Boolean";
-//this holds a boolean
-let varBool= true;
-
-console.log(concatenateString);
+let boolValue = true;
+let stringBoolean = String(boolValue);
+let concatBoolean = boolValue +"";
+console.log(stringBoolean);
 
 //null
 let nullVal = null;
-let nullToString = String(nullVal);
-
-let concatString = "null";
-console.log(concatString);
+let stringNull = String(nullVal);
+let concatNull = nullVal + "";
+console.log(stringNull);
 
 
 //undefined
 let undefinedValue = undefined;
-let undefinedToString = String(undefinedValue);
-
-let concate
-String = "undefined";
-console.log(concatString);
+let stringUndefined = String(undefinedValue);
+let concatUndefined = undefinedValue + "";
+console.log(stringUndefined);
 
 
 
@@ -47,9 +40,9 @@ console.log(concatString);
 // Handle cases where the conversion results in NaN
 // Log the results and explain the differences
 
-let str = "246";
+let str = "246";                                //stirng value representing numbers
 //convert using num()
-let num = Number(str);
+let num = Number(str);                          //convert string into numbers 
 let int = parseInt(str,10);
 console.log("parseInt" + int);
 

@@ -95,7 +95,7 @@ let myObject = {
     arrowFunction();
   }
 };
-myObject();
+myObject.logName();
 
 
 

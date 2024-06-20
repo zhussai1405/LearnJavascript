@@ -135,12 +135,12 @@ console.log(message);
 
 
 let firstName = "John";
-let lastName = "Wick";
+let lastName = "Jade";
 let hiGreeting = 'Hello';
 let personAge = 30;
 let isBirthday = true;
-let message_ = (`${greeting} ,${firstName} ${lastName} "Happy Birthday, You are " ${personAge} " years old`);
-console.log(message_);
+let concateString = hiGreeting + " " + firstName + " " + lastName + " " + "you are " + personAge + " " + "years old";
+console.log(concateString);
 
 
 

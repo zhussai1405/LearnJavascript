@@ -16,7 +16,7 @@ console.log(typeof y);      //check the type of variable
 
 
 const z = 9007199254740991;     //Declare a variable and assign a value with bigint
-console.log(typeof z);          //check the type of variable 
+console.log("type of integer" + typeof z);          //check the type of variable 
 
 
 
@@ -30,11 +30,13 @@ console.log(typeof z);          //check the type of variable
 // Perform arithmetic operations (addition, subtraction, multiplication) with BigInt values
 
 let bigint = 1234567890;                        //Declare a variable and assign it a BigInt value
-let reguNum = 50;                               //Declare a variable and assign it a regular num
-let sum = bigint + reguNum;
-console.log(sum);                               //sum the bigint , regular num
+let regularNum = 50;                               //Declare a variable and assign it a regular num
+let sum = bigint + regularNum;
+console.log(sum);   
+//sum the bigint , regular num
 let sub = bigint - reguNum; 
-console.log(sub);                               //sub the bigint , regular num
+console.log(sub);    
+//sub the bigint , regular num
 let multip = bigint * reguNum;
 console.log(multip);                            //multiply the bigint , regular num
 
@@ -73,47 +75,35 @@ let varFalse = false;                               //Declare a variable with bo
 let num5 = 5;                                       //Declare a variable with value 5
 let num4 = 4;                                       //Declare a variable with value4
 
-
 //comparison operator to get boolean result
 //comaprison with greater sign
-if (num5 < num4) {
-  console.log(`Comparison < to check :"  ${true}`);
-} else {
-  console.log(`Comparison < to check :"  ${false}`);
-}
-//comparison with less than sign 
-if (4 > 5){
-    console.log(`Comparison > to check :"  ${true}`);
-}else{
-    console.log(`Comparison > to check :"  ${false}`);
-}
-//comparison with strict equality check
-if (5 === 4){
-    console.log(`Comparison to strict check :"  ${true}`);
-}else{
-    console.log(`Comparison to strict check :"  ${false}`);
-}
-// comaprison with and && operator sign
-if (5 == 5 && 3 == 3){
-    console.log(`Comparison with && to equality check :"  ${true}`);
-}else{
-    console.log(`Comparison with && to equality check :"  ${false}`);
-}
-//comparison with OR || Operator sign 
-if (5 == 4 || 2 == 3){
-    console.log(`Comparison with OR operator to check equality:"  ${true}`);
-}else{
-    console.log(`Comparison to check OR|| operator to check equality:"  ${false}`);
-}
-//comparison with Not! operator sign 
-if (5 != 4){
-    console.log(`Comparison with not operator to check :"  ${true}`);
-}else{
-    console.log(`Comparison with not operator to check :"  ${false}`);
-}
+let lessThan = 5 < 4;
+console.log("less than" , lessThan);
+  
+let num6 = 6;
+let num7 = 7;
+let greaterThan = 6 > 7;
+console.log("Greater Than " , greaterThan);
+    
+let num8 = 8;
+let num9 = 9;
+let equalityCheck = 8 === 9;
+console.log("equality Check", equalityCheck);
+   
+let num2 = 2;
+let num3 = 3;
+let comparisonAnd = (2 == 3 && 3 == 3);         //false && true = false
+console.log("comparison with &&:" , comparisonAnd);
 
+let num0 = 0;
+let num1 = 1;
+let comparisonOr = (0 == 1 || 1 == 0);
+console.log("comparison with ||:" , comparisonOr);  //false || false = false
 
-
+let num_ = 10;
+let num$ = 11;
+let comparisonWithNot = (10 != 11);                 //Return the inverse value
+console.log("comparison with NOT!:" , comparisonWithNot);
 
 
 
@@ -124,21 +114,22 @@ if (5 != 4){
 // Try arithmetic operations with null and undefined values
 
 let a;
-console.log(typeof a);
+console.log(typeof a);                  //without assinging a value is undefined 
 
 let b = null;
-console.log(b);
+console.log(typeof b);                  
 
 //arithmetic operator with null
 //Faraz, explain what value null is taking on when doing arithmetic with null below
-console.log(null + 1);
-console.log(null - 1);
-console.log(null * 1);
-console.log(null / 1);
+//null represent 0
+console.log(null + 1);      //(0 + 1) = 1
+console.log(null - 1);      //(0 - 1) = -1
+console.log(null * 1);      //(0 * 1) = 0
+console.log(null / 1);      //(0 / 0) = 0
 
 //arithmetic operator with undefined 
 //Faraz, explain what value undefined is taking on when doing arithmetic with undefined below
-console.log(undefined + 1);
+console.log(undefined + 1); //undefined is not a Num NaN, where undefined is nothing to be their 
 console.log(undefined - 1);
 console.log(undefined * 1);
 console.log(undefined / 1);
@@ -155,12 +146,12 @@ console.log(undefined / 1);
 // Convert a number to a string using String() and concatenation
 
 let str = "123";
-let numb = Number(str);
+let numb = Number(str);                         //Method, convert string into number 
 console.log("string convert into a number : " + numb);
 
 
 let number = 123;
-let string = String(number); 
+let string = String(number);                    //Method, convert number into string 
 console.log("number convert into a string : " + string);
 
 
@@ -173,20 +164,20 @@ console.log("number convert into a string : " + string);
 // Explain the output when using typeof on null
 
 let value = 2;
-console.log(typeof value);
+console.log(typeof value);                      //typeof value is number 
 
 
 let val = "Hello to EveryOne";
-console.log(typeof val);
+console.log(typeof val);                        //typeof value is string
 
 
 let value_ = true;
-console.log(typeof value_);
+console.log(typeof value_);                     //typeof value is boolean 
 
 
 
 let valu = null;
-console.log(typeof valu);
+console.log(typeof valu);                       //typeof value is null
 
 
 
@@ -197,7 +188,7 @@ var d = 10;
 const e = 15;
 
 
-//INteger literals 
+//Integer literals 
 let age = 39;
 
 // Floating points
@@ -258,11 +249,11 @@ let greetings  = "Hello nice to meet you";
 
 
 //number variables
-let agee = 6;
-let PI = 3.14;
+let agee = 6;                   //Integer
+let PI = 3.14;                  //Floating point integer
 
 
-//Boolean variable 
+//Boolean literals variable 
 let isUserDefined = true;
 let isLoggedIn = false;
 

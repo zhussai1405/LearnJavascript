@@ -152,13 +152,15 @@ if(!falsyValue5){
 // If age is greater than or equal to 18 AND (isStudent is true OR hasPermit is true), log "Can drive"
 // Otherwise, log "Cannot drive"
 
-let agee =17;
+let agee =19;
 let isStudent = true;
 let hasPermit = false;
 
 //Faraz, what would happen if isStudent and hasPermit are both false? Explain how the code would execute and why
+//if the (true || false) is true or agee >= 18 ("can drive")
+//if the (false || false) is false or agee is not >= 18 ("cannot drive")
 if(agee >= 18 && (isStudent || hasPermit)) {
     console.log(("Can drive"));
 }else{
-    console.log("cannot drive");
+    console.log(("cannot drive"));
 }

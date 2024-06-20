@@ -36,17 +36,18 @@ function updateGlobalVar(){         //Create a function
 
 }
 updateGlobalVar();                  //call the function 
-console.log(globalVar);             //log the new global var value
+console.log(globalVar);             //log the new global var value outside the scope 
 
 
 
 //Now declare a local variable
 function updateLocalVar(){          //Declare a function 
     let localVar = 20;              //local variable inside the function with value 20
-    console.log(localVar);          //log the local variable
+    console.log(localVar);     
     
 }
-updateLocalVar();                   //call the function (function name )
+updateLocalVar();    
+//console.log(localVar);               //Outside the function Its going to be an arror localVar is not defined due to it has local variable it cant log outside the function 
 
 
 
@@ -57,10 +58,12 @@ updateLocalVar();                   //call the function (function name )
 // Explain the output
 
 
-//before declaring log given undefined value is s
+
+
 let x;
+console.log(x);             //Line No 55: before declaring log given undefined value is x
 x = 5;                      //Declare a x variable to assign value 5
-console.log(x);             //log the value of x
+                        
 
 
 
@@ -74,10 +77,11 @@ console.log(x);             //log the value of x
 
 let x_ = 10;                            //Declare a variable  x with value 10
 function shadowing(){                   //Create a function declaration
-    let x_ = 20;                        //Declare Inside the function variable x 
+    let x_ = 20;                        //Declare Inside the function variable x value 20 is log inside the function value 20 is loged
     console.log(x_);                    //log the value of x
 }
-shadowing();                            //Call the function 
+shadowing();                            //Call the function
+console.log(x_);                         //Declaraion of outer x variable 10 is log outside the function value 10 is loged
 
 
 
@@ -90,5 +94,11 @@ shadowing();                            //Call the function
 let a = 5;                              //Declare a variable a
 let b = 10;                             //Declare a variable b
 console.log(`a=${a}, b = ${b}`);
+//after temprary variable swap the value
+let temp = a;
+a = b;
+b = temp;
+console.log("a =", a);
+console.log("b =", b);
 
 
