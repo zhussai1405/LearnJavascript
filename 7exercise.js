@@ -64,6 +64,8 @@ console.log("concate the : " , singleQuoStr + doubleQuoStr);
 // Declare variables with boolean values (true and false)
 // Use comparison operators (>, <, ===, etc.) to get boolean results
 // Combine boolean values using logical operators (&&, ||, !)
+// Faraz, except for line 77, the other comparisons are wrong, you should be using variables to do comparisons
+// on lines 85, 91, 97, 103, and 109. You need to fix this. When you put direct values in place of variables, we call that being hard coded.
 
 
 let varTrue = true;                                 //Declare a variable with boolean value
@@ -128,12 +130,14 @@ let b = null;
 console.log(b);
 
 //arithmetic operator with null
+//Faraz, explain what value null is taking on when doing arithmetic with null below
 console.log(null + 1);
 console.log(null - 1);
 console.log(null * 1);
 console.log(null / 1);
 
 //arithmetic operator with undefined 
+//Faraz, explain what value undefined is taking on when doing arithmetic with undefined below
 console.log(undefined + 1);
 console.log(undefined - 1);
 console.log(undefined * 1);
@@ -149,8 +153,6 @@ console.log(undefined / 1);
 //Question 6
 // Convert a string to a number using Number() and parseInt()
 // Convert a number to a string using String() and concatenation
-// Convert a non-boolean value to a boolean using !!
-// Explore other type conversion methods (e.g., Boolean(), toString())
 
 let str = "123";
 let numb = Number(str);
@@ -161,10 +163,6 @@ let number = 123;
 let string = String(number); 
 console.log("number convert into a string : " + string);
 
-
-let nonBooleanValue = "Hello";
-let booleanValue = !!nonBooleanValue;
-console.log(booleanValue);
 
 
 

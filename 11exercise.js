@@ -30,6 +30,7 @@ console.log(result);
 
 // // Try double negation (!!)
 // console.log(!!p); // Expected output: true
+// Faraz, explain what is happening  below
 
 let p = true;
 let q = false;
@@ -37,8 +38,8 @@ let q = false;
 console.log(!p);
 console.log(!q);
 
-console.log(!!p);
-console.log(!!q);
+console.log("double negation p " + !!p);
+console.log("double negation q " + !!q);
 
 
 

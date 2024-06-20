@@ -6,6 +6,9 @@
 let number = 50;
 let numberToString = String(number);
 
+
+//Faraz, look up the word concatenate in dictionary and tell me what that means?
+//After looking up the word, are you concatenating a string in the below code?
 let concatenatedString = "Number";
 console.log(concatenatedString);
 
@@ -48,6 +51,8 @@ let str = "246";
 //convert using num()
 let num = Number(str);
 let int = parseInt(str,10);
+console.log("parseInt" + int);
+
 if(isNaN(num)){
     console.log(`Conversion of ${str} using Number()resulted in NaN`);
 }else{

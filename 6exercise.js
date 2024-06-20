@@ -24,6 +24,9 @@ console.log(PI);                                //print the const variable PI
 // Declare a global variable globalVar with value 10
 // Create a function updateGlobalVar() to increment globalVar by 5
 // Call the function and log the new globalVar value
+
+//Faraz, please read instructions carefully. The insttructions below say to call the localVar outside the function and explain what happens
+
 // Declare a local variable localVar inside the function with value 20
 // Try to log localVar outside the function - explain what will happen
 let globalVar = 10;                 //Declare a global variable 
@@ -49,6 +52,7 @@ updateLocalVar();                   //call the function (function name )
 
 //Question 4
 // Log the value of x (before declaring it)
+// Faraz - please follow each step carefully, it says to log x before declaring it, the code below is incorrect, please fix
 // Declare a variable x and assign it 5
 // Explain the output
 
@@ -64,6 +68,7 @@ console.log(x);             //log the value of x
 // Declare a variable x with value 10 outside a function
 // Create a function shadowing() with another variable x = 20
 // Inside the function, log the value of x
+// Faraz - please follow each step carefully, explain what the function will log and tell me why
 // Call the function and observe the output
 // Explain what shadowing or masking of variables is
 
@@ -79,6 +84,7 @@ shadowing();                            //Call the function
 //Question 6
 // Declare variables a and b with values 5 and 10
 // Swap the values of a and b using a temporary variable
+// Faraz - this is incorrect, you need to declare another variable swap the values so eventually a=10 and b=5, this is after the swap 
 // Log the values of a and b before and after swapping
 
 let a = 5;                              //Declare a variable a

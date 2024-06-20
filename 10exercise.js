@@ -156,6 +156,7 @@ let agee =17;
 let isStudent = true;
 let hasPermit = false;
 
+//Faraz, what would happen if isStudent and hasPermit are both false? Explain how the code would execute and why
 if(agee >= 18 && (isStudent || hasPermit)) {
     console.log(("Can drive"));
 }else{

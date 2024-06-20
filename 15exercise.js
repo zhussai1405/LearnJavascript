@@ -1,5 +1,5 @@
 
-
+//Faraz, this file doesn't run with Node js, please fix it
 
 // Rewrite the following function expression as an arrow function
 let greet = (name) => `Hello, ${name}!`;

@@ -125,6 +125,8 @@ console.log(`senio: ${senior}`);
 // Combine strings with numbers and other data types
 // Observe the implicit type conversions
 // Explain implicit type conversion
+// Faraz, you are not using the + operator to concatenate the strings and number
+// You haven't explained what is happening 
 
 let name = "John";
 let greeting = 'Hello';
